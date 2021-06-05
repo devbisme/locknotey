@@ -28,6 +28,8 @@ Use `locknotey` as follows:
 5. Save and quit the editor. Then you will be asked for a password to encrypt the text after which the ciphertext will be stored within the script file.
 6. To see what you've stored, execute the script file again. You'll be asked for a password after which the encrypted text will be decrypted and displayed in an editor window. From there you can search and/or modify the text and store it back into the script file with the same or a new password.
 
+If you have an existing `locknotey` file and want to update its code to the latest version while retaining the encrypted data, use the command `locknotey -u /path/to/existing/note_file`.
+
 ## FAQ
 
 ### Is it secure?
