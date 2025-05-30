@@ -12,7 +12,7 @@ import subprocess
 from tempfile import NamedTemporaryFile
 import time
 
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 from cryptography.fernet import Fernet, InvalidToken
 
 from locknotey import __version__
